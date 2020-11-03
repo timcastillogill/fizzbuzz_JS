@@ -25,4 +25,9 @@ describe("FizzBuzz", function() {
     expect(fizzBuzz.print(12)).toEqual('fizz');
   });
 
+  it('checks that the number 30 outpust as FizzBuzz', function() {
+
+    expect(fizzBuzz.print(30)).toEqual('fizzbuzz');
+  });
+
 });
