@@ -30,4 +30,8 @@ describe("FizzBuzz", function() {
     expect(fizzBuzz.print(30)).toEqual('fizzbuzz');
   });
 
+  it('checks that every other number upto 100 is not FIZZ, BUZZ or FIZZBUZZ', function() { 
+    expect(fizzBuzz.print(8)).toEqual(8);
+  });
+
 });
